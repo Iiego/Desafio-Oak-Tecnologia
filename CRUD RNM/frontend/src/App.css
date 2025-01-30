@@ -1,0 +1,146 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-content button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 97%;
+}
+.select{
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.produto-disponivel-label {
+  margin-left: 5px;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+}
+
+.btn-primary:hover {
+  background-color: #004996;
+}
+
+.btn-edit {
+  background-color: #28af47;
+  margin: 5px;
+}
+
+.btn-edit:hover {
+  background-color: #05bf2d;
+}
+
+.btn-delete {
+  background-color: #FF6347;
+}
+
+.btn-delete:hover {
+  background-color: #e54638;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item button {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  opacity: 0.8;
+}
+
